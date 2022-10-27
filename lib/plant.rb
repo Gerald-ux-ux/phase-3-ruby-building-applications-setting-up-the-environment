@@ -1,3 +1,5 @@
+ require 'pry'
+
 class Plant
   attr_accessor :garden, :name
 
@@ -11,4 +13,8 @@ class Plant
   def self.all
     @@all
   end
+  
 end
+
+binding.pry
+
